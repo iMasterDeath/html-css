@@ -8,27 +8,36 @@
     font-size: 1em;
 }
 
+html, body {
+    min-height: 100vh;
+}
 
-.topo {
+header {
+    background-color: black;
+
+}
+
+header > h1 {
     font-family: 'Passion One', cursive;
-    font-size: 100px;
+    font-size: 8vw;
     text-align: center;
-    padding: 40px 50px;
+    padding: 40px 0px 15px 0px;
     color: white;
-    background-color: rgb(0, 0, 0);
+    font-variant: small-caps;
 
 
 }
 
-.por {
+header > p {
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     text-align: center;
     padding-bottom: 50px;
     background-color: rgb(0, 0, 0);
 }
 
 header a, footer a {
+    font-weight: bolder;
     text-decoration: none;
     color: white;
 }
@@ -40,10 +49,10 @@ header a:hover, footer a:hover {
 
 section > p {
     font-family: 'Sriracha', cursive;
-    font-size: 48px;
-    line-height: 75px;
+    font-size: 3vw;
+    line-height: 2em;
     font-weight: 400;
-    margin: 80px 0px 150px 15px; 
+    margin: 8vw 0vw 8vw 1.5rem; 
 }
 
 section.normal {
@@ -51,29 +60,30 @@ section.normal {
 }
 
 section.imagem1, section.imagem2 {
-    background-color: rgb(255, 255, 255);
-    padding-top: 80px;
-    padding-bottom: 80px;
-    box-shadow: 5px 5px 5px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.261);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem1 {
     background-image: url(imagens/background001.jpg);
-    box-shadow: 2px 2px 2px;
+    background-position: center center;
+    
 }
 
 section.imagem2 {
     background-image: url(imagens/background002.jpg);
-    box-shadow: 2px 2px 2px;
+    background-position: center center;
+    
 }
 
 section > p#preto {
-    color: white;
-    font-family: 'Sriracha', cursive;
-    font-size: 48px;
-    line-height: 75px;
-    font-weight: 400;
-    margin: 0px 395px 0px 15px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.42);
     
 }
